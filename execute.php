@@ -55,7 +55,7 @@
 		
 		$barz[2] =" Un amico di Totti ha ricevuto una ferrari nuovissima e ci sta per andate e Totti gli fa: 'aoh me raccomando vai piano Dopo un pò lo chiama al telefono ma non lo trova poi quando l'amico ritorna Totti gli fa: 'aoh do cavolo sei annato così lontano..il tuo telefono era irraggiungibile!";
 		
-			$i=rand(0,1,2);
+			$i=rand(0,2);
 			$parameters = array('chat_id' => $chatId, "text" => $barz[$i]);
 
 		}
