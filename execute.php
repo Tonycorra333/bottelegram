@@ -53,10 +53,7 @@
 		//e lo invio
 		
 		$parameters["method"] = "sendMessage";
-        echo json_encode($parameters);
-		
-		
-		
+        	echo json_encode($parameters);
 		
 		
 		
