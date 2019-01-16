@@ -65,6 +65,11 @@
 		if($text=="audio"){
 				sendaudio($chatId,"audio.mp3",false,"il mio audio", $api);
 		}
+		if($text=="trantran"){
+				sendaudio($chatId,"trantran.mp3",false,"tran tran", $api);
+		}
+
+
 		//aggiungo il comando di invio
 		//e lo invio
 		
