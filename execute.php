@@ -57,6 +57,9 @@
 		
 			$i=rand(0,2);
 			$parameters = array('chat_id' => $chatId, "text" => $barz[$i]);
+			
+			if($text=="audio"){
+				sendaudio($chatId,"audio.mp3",false,"il mio audio", $api);
 
 		}
 		//aggiungo il comando di invio
